@@ -7,12 +7,12 @@
   </head>
   <body style="text-align: center">
     <canvas id="unity-canvas" style="width: 1290px; height: 720px; background: #231F20"></canvas>
-    <script src="Build/RecycleGame.loader.js"></script>
+    <script src="Build/RecycleGameWebGL.loader.js"></script>
     <script>
       createUnityInstance(document.querySelector("#unity-canvas"), {
-        dataUrl: "Build/RecycleGame.data.br",
-        frameworkUrl: "Build/RecycleGame.framework.js.br",
-        codeUrl: "Build/RecycleGame.wasm.br",
+        dataUrl: "Build/RecycleGameWebGL.data",
+        frameworkUrl: "Build/RecycleGameWebGL.framework.js",
+        codeUrl: "Build/RecycleGameWebGL.wasm",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "DefaultCompany",
         productName: "RecycleGame",
